@@ -4,6 +4,7 @@ Note that we provide the original URLs.
 """
 
 import argparse
+import requests
 
 parser = argparse.ArgumentParser(description='Download the Incident Dataset images.')
 parser.add_argument('--images_folder',
